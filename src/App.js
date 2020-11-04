@@ -100,8 +100,8 @@ export default function App() {
         onLimitChange={handleLimitChange}
         onButtonClick={handleInitSort}
       />
-      <Numbers numbers={numbers} pickedNumbers={pickedNumbers} />
       <SixNumbers numbers={pickedNumbers} />
+      <Numbers numbers={numbers} pickedNumbers={pickedNumbers} />
     </div>
   );
 }
